@@ -1,3 +1,3 @@
 User-agent: *
 Allow: /
-Sitemap: https://koncrm.github.io/zweb-blog-hugo/sitemap.xml
+Sitemap: https://blog.zwebcourses.com/sitemap.xml
