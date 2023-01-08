@@ -31,7 +31,7 @@ mainSections = ["posts"]
 
 [homepage]
   layout = "background" # valid options: page, profile, hero, card, background, custom
-  homepageImage = "ZWeb_Courses.png" # used in: hero, and card
+  homepageImage = "img/ZWeb_Courses.png" # used in: hero, and card
   showRecent = true
   showRecentItems = 9
   showMoreLink = true
@@ -42,8 +42,8 @@ mainSections = ["posts"]
 
 [article]
   showDate = true
-  #showViews = true
-  #showLikes = true
+  showViews = true
+  showLikes = true
   showDateUpdated = false
   showAuthor = true
   showHero = true
@@ -74,8 +74,8 @@ mainSections = ["posts"]
   #layoutBackgroundHeaderSpace = true # only used when heroStyle equals background
   showBreadcrumbs = false
   showSummary = false
-  #showViews = true
-  #showLikes = true
+  showViews = true
+  showLikes = true
   showTableOfContents = false
   showCards = true
   groupByYear = false
@@ -90,31 +90,31 @@ mainSections = ["posts"]
   showTermCount = true
   #showHero = true
   #heroStyle = "background" # valid options: basic, big, background, thumbAndBackground
-  showBreadcrumbs = false
-  #showViews = false
-  #showLikes = false
+  #showBreadcrumbs = true
+  showViews = true
+  showLikes = true
   #showTableOfContents = true
   #cardView = false
 
 [term]
   #showHero = true
   #heroStyle = "background" # valid options: basic, big, background, thumbAndBackground
-  showBreadcrumbs = false
-  #showViews = false
-  #showLikes = false
+  #showBreadcrumbs = true
+  showViews = true
+  showLikes = true
   #showTableOfContents = true
   #groupByYear = false
   #cardViewScreenWidth = false
-  #cardView = false
+  cardView = true
 
 [firebase]
-  # apiKey = "XXXXXX"
-  # authDomain = "XXXXXX"
-  # projectId = "XXXXXX"
-  # storageBucket = "XXXXXX"
-  # messagingSenderId = "XXXXXX"
-  # appId = "XXXXXX"
-  # measurementId = "XXXXXX"
+   apiKey = "AIzaSyAbobgb8uyAa603RBYEpBJ_LkDn_3l5Ack"
+   authDomain = "english-blog-b188a.firebaseapp.com"
+   projectId = "english-blog-b188a"
+   storageBucket = "english-blog-b188a.appspot.com"
+   messagingSenderId = "1066772666708"
+   appId = "1:1066772666708:web:1e3ce6054fb91ee434d0c1"
+   measurementId = "G-WLB7ZNFMCT"
 
 [fathomAnalytics]
   # site = "ABC12345"

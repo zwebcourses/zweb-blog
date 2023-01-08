@@ -1,13 +1,12 @@
 ---
-categories:
-- Development
-- VIM
-tags:
-- tag1
-- tag2
 title: "First"
-date: 2023-01-07T04:02:59+02:00
+date: 2023-01-08T01:40:23+02:00
 draft: false
+slug: "first-post"
+cascade:
+  showReadingTime: false
+categories: ['Development', 'VIM']
+tags: ['tag1', 'tag2']
 ---
 
 # test
